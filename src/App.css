@@ -1,0 +1,267 @@
+body {
+    background-image: url("image1.jpg");
+    background-size: cover;
+    filter: blur();
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    
+  }
+
+  
+  .box {
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid #1c1919;
+    background-color: #fff;
+  }
+  .box2{
+    width: 30vw;
+    height: 10vh;
+    border: 1px solid #1c1919;
+    background-color: #fff;
+  }
+  .box3{
+    width: 30vw;
+    height: 40vh;
+    border: 1px solid #1c1919;
+    background-color: #fff;
+  }
+  
+  .g-btn {
+    width: 100% !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 15px !important;
+  }
+  .g-btn > div,
+  .g-btn > div > svg {
+    width: 40px !important;
+    height: 38px !important;
+  }
+
+  .landing{
+    height: 75vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+  }
+  .box11{
+      height: 60vh;
+      width: 40vw ;
+      
+      display: flex;
+      flex-direction: column;
+  }
+  .box11sub1{
+    height: 20vh;
+    width: 40vw ;
+   
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    
+    font-size: 3rem;
+    font-family:sans-serif;
+    font-weight: bolder;
+  }
+  .box11sub2{
+    height: 15vh;
+    width: 40vw ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .box11sub3{
+    height: 20vh;
+    width: 20vw ;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .box22{
+    height: 60vh;
+    width: 40vw ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.t1{
+  height: 25vh;
+  width: 100vw;
+  background-color: white;
+  position: relative;
+}
+.lo{
+  width: 7vw;
+  height: 14vh;
+  border-radius: 100%;
+}
+
+
+
+
+
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 70px;
+  height: 22px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.asset2{
+  width: 70vh;
+}
+.nav1{
+font-size: 1.6rem;
+font-weight: bold;
+}
+.nav2{
+font-size: 1.2rem;
+}
+.typical{
+  font-size: 2rem;
+}
+.grid-container{
+  display: inline-grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  height: 135vh;
+  width: 100vw;
+  background-color: white;
+  column-gap: 2vh;
+}
+.grid-item{
+    height: 60vh;
+    width: 25vw;
+    background: rgb(0, 0, 0);
+
+border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
